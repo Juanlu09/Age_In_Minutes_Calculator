@@ -11,4 +11,5 @@
     <color name="bgColor">#eae2b7</color>
     <color name="bgButtonColor">#f77f00</color>
     <color name="selectedDayColor">#d62828</color>
+    <color name="splashBg">#c25b5b</color>
 </resources>
