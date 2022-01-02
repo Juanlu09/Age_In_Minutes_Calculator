@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:background="@color/bgColor"
     android:orientation="vertical"
-    android:padding="16">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/tv_Calulate"
@@ -16,7 +16,7 @@
         android:text="CALCULATE YOUR"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:textStyle="bold"/>
 
     <TextView
@@ -80,10 +80,11 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/bt_DateSelect"
+        android:id="@+id/btn_DateSelect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select Date"
+        android:textSize="18sp"
         android:backgroundTint="@color/bgButtonColor"
         android:layout_marginTop="60dp"/>
 
