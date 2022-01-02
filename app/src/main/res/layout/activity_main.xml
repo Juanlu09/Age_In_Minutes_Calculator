@@ -13,7 +13,7 @@
         android:id="@+id/tv_Calulate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CALCULATE YOUR"
+        android:text="@string/calculate_your"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
         android:layout_marginTop="36dp"
@@ -23,7 +23,7 @@
         android:id="@+id/tv_Age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AGE"
+        android:text="@string/age"
         android:background="@color/textBlue"
         android:textColor="@color/white"
         android:padding="10dp"
@@ -35,7 +35,7 @@
         android:id="@+id/tv_InMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IN MINUTES"
+        android:text="@string/in_minutes"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
         android:layout_marginTop="16dp"
@@ -45,7 +45,7 @@
         android:id="@+id/tv_Date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="14.01.1995"
+        android:text="DD/MM/YYYY"
         android:textColor="@color/textBlue"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -55,7 +55,7 @@
         android:id="@+id/tv_SelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected Date"
+        android:text="@string/selected_date"
         android:textColor="@color/selectedDayColor"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -64,7 +64,7 @@
         android:id="@+id/tv_Minutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="999999999"
+        android:text="0"
         android:textColor="@color/textBlue"
         android:textSize="35sp"
         android:layout_marginTop="50dp"
@@ -74,19 +74,19 @@
         android:id="@+id/tv_UntilToday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="In minutes till date"
+        android:text="@string/in_minutes_till_date"
         android:textColor="@color/selectedDayColor"
         android:textSize="20sp"
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/btn_DateSelect"
+        android:id="@+id/btnDateSelect"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Select Date"
-        android:textSize="18sp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/bgButtonColor"
-        android:layout_marginTop="60dp"/>
+        android:text="@string/select_date_btn"
+        android:textSize="18sp" />
 
 
 </LinearLayout>
