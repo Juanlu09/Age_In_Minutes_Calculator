@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Age in Minutes Calculator</string>
-    <string name="selected_date">Día seleccionado</string>
+    <string name="selected_date">Fecha seleccionada</string>
     <string name="in_minutes_till_date">Minutos vividos</string>
-    <string name="select_date_btn">Seleccionar día</string>
+    <string name="select_date_btn">Seleccionar fecha</string>
     <string name="calculate_your">CALCULA TU</string>
     <string name="age">EDAD</string>
     <string name="in_minutes">EN MINUTOS</string>
-    <string name="selection_done">Selección realizada</string>
+    <string name="selection_done">Feha seleccionada</string>
 </resources>

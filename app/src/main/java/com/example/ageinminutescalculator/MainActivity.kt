@@ -49,12 +49,12 @@ class MainActivity : AppCompatActivity() {
                 val theDate = sdf.parse(selectedDate)
                 theDate?.let {
 
-                    val selectedDateInMinutes = theDate.time / 6000
+                    val selectedDateInMinutes = theDate.time / 60000
 
                     val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
                     currentDate?.let {
 
-                        val currentDayInMinutes = currentDate.time / 6000
+                        val currentDayInMinutes = currentDate.time / 60000
                         val differenceInMinutes = currentDayInMinutes - selectedDateInMinutes
 
                         tv_Minutes?.text = differenceInMinutes.toString()
