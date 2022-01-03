@@ -11,8 +11,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var tv_Date: TextView? = null
-    private var tv_Minutes: TextView? = null
+    private var tvDate: TextView? = null
+    private var tvMinutes: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnDateSelect: Button = findViewById(R.id.btnDateSelect)
-        tv_Date = findViewById(R.id.tv_Date)
-        tv_Minutes = findViewById(R.id.tv_Minutes)
+        tvDate = findViewById(R.id.tv_Date)
+        tvMinutes = findViewById(R.id.tv_Minutes)
 
         btnDateSelect.setOnClickListener {
             clickDatePicker()
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, getString(R.string.selection_done), Toast.LENGTH_SHORT).show()
 
                 val selectedDate = "$selectedDayOfMonth/${selectedMonth + 1}/$selectedYear"
-                tv_Date?.text = selectedDate
+                tvDate?.text = selectedDate
 
                 val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH)
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                         val currentDayInMinutes = currentDate.time / 60000
                         val differenceInMinutes = currentDayInMinutes - selectedDateInMinutes
 
-                        tv_Minutes?.text = differenceInMinutes.toString()
+                        tvMinutes?.text = differenceInMinutes.toString()
                     }
 
                 }
